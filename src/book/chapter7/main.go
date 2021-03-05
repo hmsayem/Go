@@ -1,5 +1,4 @@
 package main
-
 import "fmt"
 
 func add(x, y int) int{
@@ -77,7 +76,7 @@ func main() {
 		fmt.Println("Hello World")
 	}()
 
-	c1  := returnFunc("Hello")
+	c1 := returnFunc("Hello")
 	c2 := returnFunc("World")
 	c1()
 	c2()
