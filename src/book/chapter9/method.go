@@ -20,6 +20,7 @@ func (s *Student) getAvgGrade() float64{
 	return float64(sum) / float64(len(s.grades))
 }
 func main(){
+
 	s1 := Student{"Sayem", []int{90,78,87,50}, 20}
 	fmt.Println(s1.getAge())
 	s1.setAge(21)
